@@ -8,7 +8,7 @@
       "price": 50,
       "discount": 10,
       "images": ["image1", "image2"],
-      "category_id": 1
+      "category": "فئة 1"
     }
   ],
   "categories": [
