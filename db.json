@@ -2,28 +2,29 @@
   "products": [
     {
       "id": 1,
-      "title": "Product 1",
-      "description": "Product 1 Description",
+      "title": "منتج 1",
+      "description": "وصف المنتج 1",
       "count": 10,
       "price": 50,
       "discount": 10,
-      "images": ["image1", "image"],
-      "category": "category1"
+      "images": ["image1", "image2"],
+      "category": "فئة 1"
     }
   ],
   "categories": [
     {
       "id": 1,
-      "title": "category1"
-    }
-  ],
+      "title": "فئة 1"
+    }
+  ],
   "users": [
     {
       "id": 1,
-      "name": "Rahma",
+      "name": "رحمة",
       "email": "rahma@gmail.com",
       "password": "12341234",
       "role": "admin",
       "phone": "01556882843"
     }
+  ]
 }
