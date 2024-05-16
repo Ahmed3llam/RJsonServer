@@ -1,9 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "description": "Product 1 Description",
+      "count": 10,
+      "price": 50,
+      "discount": 10,
+      "images": ["image1", "image"],
+      "category": "category1"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categories": [
+    {
+      "id": 1,
+      "title": "category1"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Rahma",
+      "email": "rahma@gmail.com",
+      "password": "12341234",
+      "role": "admin",
+      "phone": "01556882843"
+    }
 }
